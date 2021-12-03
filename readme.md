@@ -658,7 +658,7 @@ pinia._p.forEach((extender) => {
 ```
 <a name="c8vDh"></a>
 ### 流程图
-![createSetupStore.png](流程图/createSetupStore.png)
+![createSetupStore.png](./流程图/createSetupStore.png)
 <a name="PWdWu"></a>
 ## createOptionsStore函数
 `createOptionsStore`函数的核心是`setup`函数，`setup`函数将`options`上的`state`、`actions`、`getters`合并到state上并返回合并结果，由`createSetupStore`函数调用并返回新建的`store`：
@@ -750,7 +750,7 @@ if (__DEV__ && hot) {
 }
 ```
 
-<br />![useStore.png](流程图/useStore.png)
+<br />![useStore.png](./流程图/useStore.png)
 <a name="v75Ob"></a>
 # 插件
 <a name="JvKWl"></a>
@@ -793,7 +793,7 @@ pinia._p.forEach((extender) => {
 ```
 <a name="SlgmF"></a>
 # 不完整流程图
-![pinia.png](流程图/pinia.png)
+![pinia.png](./流程图/pinia.png)
 <a name="uS3hP"></a>
 # 未完待续。。
 其他内容以后再看，还有其他目标没完成<br />​<br />
